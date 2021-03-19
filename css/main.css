@@ -1203,6 +1203,10 @@ h1, h2, h3, h4, h5, h6 {
   .navbar-expand-lg > .container-fluid {
     padding: 0px 15px; } }
 
+
+.portfolio {
+  width: 100%;
+}
 /* banner area css
 ============================================================================================ */
 .banner-area {
@@ -1340,6 +1344,55 @@ h1, h2, h3, h4, h5, h6 {
   background: -ms-linear-gradient(45deg, #f6463d 0%, #f6398d 45%, #f52cdc 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
+
+  .organic-breadcrumbg {
+    background: url(../img/banner/common-bannerg.jpg) center no-repeat;
+    background-size: cover;
+    padding-top: 130px; }
+    @media (max-width: 991px) {
+      .organic-breadcrumbg {
+        padding-top: 80px; } }
+    @media (max-width: 767px) {
+      .organic-breadcrumbg {
+        background: none;
+        background: -webkit-linear-gradient(90deg, #6b050c 0%, #400000 100%);
+        background: -moz-linear-gradient(90deg, #6b050c 0%, #400000 100%);
+        background: -o-linear-gradient(90deg, #6b050c 0%, #400000 100%);
+        background: linear-gradient(90deg, #6b050c 0%, #400000 100%); } }
+  
+  #category .organic-breadcrumbg {
+    margin-bottom: 100px; }
+  
+  .breadcrumb-banner {
+    padding: 90px 0 100px 0; }
+    .breadcrumb-banner h1 {
+      font-weight: 600;
+      color: #fff; }
+      @media (max-width: 767px) {
+        .breadcrumb-banner h1 {
+          font-size: 30px; } }
+    .breadcrumb-banner p {
+      margin-bottom: 0;
+      color: #fff; }
+    .breadcrumb-banner nav a {
+      display: inline-block;
+      color: #fff;
+      font-weight: 400; }
+      .breadcrumb-banner nav a span {
+        display: inline-block;
+        margin: 0 10px; }
+    .breadcrumb-banner .col-first {
+      padding-right: 15px; }
+      @media (max-width: 1680px) {
+        .breadcrumb-banner .col-first {
+          padding-right: 40px; } }
+      @media (max-width: 991px) {
+        .breadcrumb-banner .col-first {
+          width: 48%; } }
+      @media (max-width: 767px) {
+        .breadcrumb-banner .col-first {
+          width: 100%; } }
+  
 
 /* start features area css
 ============================================================================================ */
@@ -3305,6 +3358,7 @@ label {
   display: block;
   line-height: 50px;
   padding-left: 10px;
+  cursor: pointer;
   border-bottom: 1px solid #eee; }
   .sidebar-categories .main-nav-list a:hover {
     color: #6b050c; }
@@ -3482,6 +3536,8 @@ label {
   .price-range-area .price {
     margin-right: 5px;
     color: #777777; }
+
+
 
 /* Feature Product Area css
 ============================================================================================ */
