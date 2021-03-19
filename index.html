@@ -68,15 +68,7 @@
 				</div>
 			</nav>
 		</div>
-		<div class="search_input" id="search_input_box">
-			<div class="container">
-				<form class="d-flex justify-content-between">
-					<input type="text" class="form-control" id="search_input" placeholder="Search Here">
-					<button type="submit" class="btn"></button>
-					<span class="lnr lnr-cross" id="close_search" title="Close Search"></span>
-				</form>
-			</div>
-		</div>
+		
 	</header>
 	<!-- End Header Area -->
 
@@ -107,16 +99,17 @@
 							</div>
 						</div>
 						<!-- single-slide -->
-						<div class="row single-slide">
-							<div class="col-lg-5">
+						<div class="row single-slide align-items-center d-flex">
+							<div class="col-lg-5 col-md-6">
 								<div class="banner-content">
-									<h1>Nike New <br>Collection!</h1>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-										dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-									<div class="add-bag d-flex align-items-center">
+									
+									<h1><br><br>B2 Informática!</h1>
+									<h3>Reproduzindo Economia,
+										Imprimindo Qualidade.<br><br><br><br></h3>
+									<!--<div class="add-bag d-flex align-items-center">
 										<a class="add-btn" href=""><span class="lnr lnr-cross"></span></a>
-										<span class="add-text text-uppercase">Add to Bag</span>
-									</div>
+										<span class="add-text text-uppercase">Add to Bag</span>	
+									</div>  -->
 								</div>
 							</div>
 							<div class="col-lg-7">
@@ -466,27 +459,20 @@ Todos os direitos reservados | B2 Informática</p>
 	<script src="js/gmaps.min.js"></script>
 	<script src="js/main.js"></script>
 	<!--JQuery-->  
-<script type="text/javascript" src="jquery-3.3.1.min.js"></script>  
-<!--Floating WhatsApp css-->  
-<link rel="stylesheet" href="floating-wpp.min.css">  
-<!--Floating WhatsApp javascript-->  
-<script type="text/javascript" src="floating-wpp.min.js"></script>
-	
+
+	<script type="text/javascript" src="floating-wpp.min.js"></script>
+	<link rel="stylesheet" href="floating-wpp.min.css">
+
+<div id="whats" href=""></div>
 </body>
-<script type="text/javascript">  
-	$(function () {
-			$('#WAButton').floatingWhatsApp({
-				phone: 'WHATSAPP-PHONE-NUMBER', //WhatsApp Business phone number
-				headerTitle: 'Chat with us on WhatsApp!', //Popup Title
-				popupMessage: 'Hello, how can we help you?', //Popup Message
-				showPopup: true, //Enables popup display
-				buttonImage: '<img src="whatsapp.svg" />', //Button Image
-				//headerColor: 'crimson', //Custom header color
-				//backgroundColor: 'crimson', //Custom background button color
-				position: "right" //Position: left | right
- 
-			});
-		});
- </script>  
+<script type="text/javascript">
+  $(function () {
+	$('#whats').floatingWhatsApp({
+    phone: '554130299404',
+    buttonImage: '<img src="whatsapp.svg" />',
+	position: "right" //Position: left | right
+	});
+  });
+</script>
 
 </html>
