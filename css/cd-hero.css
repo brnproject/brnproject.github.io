@@ -512,6 +512,8 @@ Slider navigation
   -webkit-transition: background-color 0.2s;
   -moz-transition: background-color 0.2s;
   transition: background-color 0.2s;
+	word-wrap: break-word;
+
 }
 
 .cd-slider-nav a{
