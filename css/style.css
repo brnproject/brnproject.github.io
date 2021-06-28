@@ -1154,8 +1154,7 @@ ul.navbar-nav > li > a i{
 	line-height: 60px;
 	text-align: center;
 	font-size: 32px;
-	word-wrap: normal;
-	word-break: normal;
+	word-wrap: break-word;
 }
 
 .ts-flex-slider .flex-direction-nav a.flex-next{
