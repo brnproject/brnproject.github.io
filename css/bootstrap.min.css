@@ -251,7 +251,9 @@ img {
 .logo-responsive {
 	display:block;
 	height:auto;
-	max-width:90%
+	max-width:85%;
+	align-items: center;
+	
 }
 
 .img-rounded {
