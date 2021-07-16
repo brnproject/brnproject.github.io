@@ -177,6 +177,8 @@
 			if ( st > 350 ) {
 				if ( !navbar.hasClass('awake') ) {
 					navbar.addClass('awake');	
+					var logobarber = document.getElementById("logobarber");
+					logobarber.src = "images/logo2.png"
 				}
 				
 				if(sd.length > 0) {
@@ -187,6 +189,8 @@
 				if ( navbar.hasClass('awake') ) {
 					navbar.removeClass('awake');
 					navbar.addClass('sleep');
+					var logobarber = document.getElementById("logobarber");
+					logobarber.src = "images/logo.png"
 				}
 				if(sd.length > 0) {
 					sd.removeClass('sleep');

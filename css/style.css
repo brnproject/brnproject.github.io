@@ -8175,6 +8175,9 @@ h1, h2, h3, h4, h5,
   z-index: 3;
   padding: 0; }
   @media (max-width: 991.98px) {
+    .navbar-toggler {
+      position: absolute;
+    }
     .ftco-navbar-light {
       background: #000000 !important;
       position: relative;
